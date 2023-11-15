@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%);
+    background: hsl(233, 47%, 7%);
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    Font-size: 15px;
+}
+
+.card {
+    height: 300px;
+    width: 800px;
+    background: hsl(244, 38%, 16%);
+    border-radius: 6px;
+    display: flex;    
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+    border-radius: 6px 0 0 6px;
+    padding: 35px 40px 35px 35px;
+}
+
+.header{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.header  span{
+    color: hsl(277, 64%, 61%);
+}
+
+.discretion{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: smaller;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.info h1 {
+    color:hsl(0, 0%, 100%);
+    font-size: large;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.info p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 0;
+    margin-top: 5px;
+    font-size: x-small;
+}
+
+.img {
+    width: 50%;
+    height: 100%;
+    border-radius: 0 6px 6px 0; 
+    background: url(images/image-header-desktop.jpg) no-repeat round;
+    background-color:  hsl(277, 64%, 61%);
+    background-blend-mode: multiply;   
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
